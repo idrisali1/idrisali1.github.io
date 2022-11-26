@@ -1,0 +1,112 @@
+@font-face {
+    font-family: 'Roboto';
+    src: url(font/Roboto-Regular.ttf);
+}
+
+* {
+    font-family: Roboto;
+    margin: 9px;
+    border: 15px;
+    padding: 15px;
+}
+
+/* First section */
+
+button {
+    background-color: #3882F6;
+    color: white;
+    border-color: #3882F6;
+}
+
+img {
+    float: right;
+    margin-top: -70px;
+    margin-left: 100px;
+}
+
+.myClass {
+    background-color: #1F2937;
+}
+
+#main {
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
+#secondary {
+    text-align: right;
+    font-size: 18px;
+    color: #E5E7EB;
+    display: inline;
+    float: right;
+    margin-top: -60px;
+}
+
+#size {
+    font-size: 48px;
+    font-weight: bold;
+    color: #F9FAF8;
+}
+
+#text {
+    color: #E5E7EB;
+}
+
+/* Second section */
+
+.grid-2 {
+    text-align: center;
+    font-weight: bolder;
+    font-size: 36px;
+}
+
+.container {
+    height: 140px;
+    padding: 16px;
+    display: flex;
+    align-items: center;
+}
+
+.item {
+    width: 60px;
+    height: 60px;
+    border: 4px solid #3882F6;
+    background-color: white;
+    display: inline-block;
+    flex: 1;
+}
+
+span {
+    display: inline-block;
+    width: 150px;
+    height: 100px;
+}
+
+/* Third section */
+
+.thirdClass {
+    background-color: #E5E7EB;
+}
+
+.text-2 {
+    text-align: center;
+    font-size: 36px;
+}
+
+/* Fourth section */
+
+.fourthClass {
+    background-color: #3882F6;
+    color: white;
+    margin: 100px;
+    border: 150px;
+    padding: 15px;
+}
+
+/* Last section */
+
+.last-class {
+    background-color:#1F2937;
+    color: white;
+    text-align: center;
+}
